@@ -14,7 +14,7 @@ stockApel = 10
 stockJeruk = 15
 stockAnggur = 8
 
-# deklarasi ungsi hitung buah
+# deklarasi fungsi hitung buah
 def input_fruit(name, stock, price):
     while True:
         n = int(input(f"input jumlah {name.capitalize()}:"))
